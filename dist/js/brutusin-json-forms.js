@@ -223,7 +223,7 @@ if (typeof brutusin === "undefined") {
                         input.type = "text";
                     }
                 } else if (s.format === "date") {
-                    input.type = "date";
+                    input.setAttribute("type", "date");
                 } else if (s.format === "time") {
                     input.type = "time";
                 } else if (s.format === "email") {
